@@ -1,6 +1,5 @@
 body{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    background-color: black;
 }
 
 .top-bar{
@@ -17,16 +16,69 @@ body{
     }
 
 .top-bar-txt{
-    color: gainsboro;
+    color: #b79818;
     padding-top: 250px;
 }
 
 .navbar{
     background-color: black;
     color: gainsboro;
+    margin: 0px;
 }
 
-.container.d-flex {
+.container .d-flex {
     justify-content: space-between;
 }
 
+.content{
+    background-color: rgb(18, 18, 18);
+    padding: 30px;
+
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-header{
+    width: 262px;
+    height: 70px;
+}
+
+.card-body{
+    max-width: 320px;
+    max-height: 470px;
+}
+
+.icone{
+    height: 70px;
+    width: auto;
+    object-fit: cover; 
+    text-align: center;
+}
+
+.icone-gtr{
+    height: 50px;
+    width: auto;
+}
+
+.row{
+    margin: 50px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.col1{
+    text-align: center;
+    max-height: 450px;
+}
+
+.col2{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
