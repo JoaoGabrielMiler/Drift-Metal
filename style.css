@@ -13,7 +13,7 @@ body{
     background-image: url(./images/drift-king.png);
     background-size:contain;
     background-repeat: no-repeat;
-    }
+}
 
 .top-bar-txt{
     color: #b79818;
@@ -31,20 +31,14 @@ body{
 }
 
 .content{
-    background-color: rgb(18, 18, 18);
+    background-color: black;
     padding: 30px;
-
 }
 
 .card-img{
     width: 200px;
     height: 200px;
     object-fit: cover;
-}
-
-.card-header{
-    width: 262px;
-    height: 70px;
 }
 
 .card-body{
@@ -55,28 +49,15 @@ body{
 .icone{
     height: 70px;
     width: auto;
-    object-fit: cover; 
-    text-align: center;
-}
-
-.icone-gtr{
-    height: 50px;
-    width: auto;
 }
 
 .row{
     margin: 50px;
-    padding: 0;
     justify-content: space-between;
 }
 
-.col1{
-    text-align: center;
-    max-height: 450px;
-}
-
-.col2{
-    text-align: center;
+.col{
+    text-align: right;
 }
 
 li{
