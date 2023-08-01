@@ -1,0 +1,32 @@
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.top-bar{
+    height: 400px;
+    background-image: url(./images/jdm-cars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-dk{
+    background-image: url(./images/drift-king.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    }
+
+.top-bar-txt{
+    color: gainsboro;
+    padding-top: 250px;
+}
+
+.navbar{
+    background-color: black;
+    color: gainsboro;
+}
+
+.container.d-flex {
+    justify-content: space-between;
+}
+
