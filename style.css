@@ -21,13 +21,18 @@ body{
 }
 
 .navbar{
-    background-color: black;
+    background-image: linear-gradient(rgb(83, 79, 79),black,black,black);
     color: gainsboro;
     margin: 0px;
 }
 
-.container .d-flex {
+.container{
+    background-image: line-gradient(rgb(83,79,79),black,black,black);
+} 
+
+.d-flex {
     justify-content: space-between;
+    color: white;
 }
 
 .content{
@@ -35,29 +40,26 @@ body{
     padding: 30px;
 }
 
-.card-img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+.card-header{
+    text-align: right;
 }
 
-.card-body{
-    max-width: 320px;
-    max-height: 470px;
+.card-img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    background-image: center;
 }
 
 .icone{
     height: 70px;
     width: auto;
+    text-align: right;
 }
 
 .row{
     margin: 50px;
     justify-content: space-between;
-}
-
-.col{
-    text-align: right;
 }
 
 li{
