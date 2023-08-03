@@ -30,10 +30,11 @@ body{
     justify-content: space-between;
     color: white;
     background-color: black;/* background para o nome e o preço rgb(83,79,79)*/
-    height: 30px;
+    height: 45px;
 }
 
 .container{
+    padding-bottom: 1px;
     background-color: black; /*Opção1*/
     /* background-color: rgb(20,20,20); Opção2*/
     /* border: solid 3px blue; teste */
