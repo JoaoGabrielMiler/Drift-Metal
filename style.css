@@ -30,7 +30,7 @@ body{
     padding-top: 10px;
     color: white;
     height: 45px;
-    background-color:black; /*background para o nome e o preço*/
+    background-color:black; 
 }
 
 .container{
