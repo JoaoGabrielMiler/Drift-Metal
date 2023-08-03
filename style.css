@@ -22,22 +22,20 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(rgb(83, 79, 79),black,black,black);
+    background-image: linear-gradient(rgb(83, 79,79),black);
     color: gainsboro;
 }
 
 .d-flex {
     justify-content: space-between;
     color: white;
-    background-color: black;/* background para o nome e o preço rgb(83,79,79)*/
+    background-color: black;/*background para o nome e o preço*/
     height: 45px;
 }
 
 .container{
-    background-color: black; /*Opção1*/
-    /* background-color: rgb(20,20,20); Opção2*/
+    background-color: rgb(15,15,15); /*Opção1*/
     /* border: solid 3px blue; teste */
-    /* background-image: linear-gradient(rgb(83, 79, 79),black,black); */
 }
 
 .contbg{
@@ -45,7 +43,7 @@ body{
 }
 
 .content{
-    background-color: rgb(15,15,15);
+    background-color: rgb(30,30,30);
     padding: 10px;
     /* border: solid 3px yellow; */
 }
@@ -76,5 +74,5 @@ body{
 }
 
 li{
-    list-style: none;        /*tirar o ponto do nome do carro e do valor*/
+    list-style: none;   /*tirar o ponto do nome do carro e do valor*/
 }
