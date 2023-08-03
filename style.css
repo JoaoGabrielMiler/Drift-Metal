@@ -7,7 +7,6 @@ body{
     background-image: url(./images/jdm-cars.jpg);
     background-size: cover;
     background-position: center;
-    /* padding-left: 300px; apagar na hora de finalizar*/
 }
 
 .logo-dk{
@@ -26,12 +25,12 @@ body{
     color: gainsboro;
 }
 
-.d-flex {
+.card-txt{
+    justify-content:space-between;
     padding-top: 10px;
-    justify-content: space-between;
     color: white;
     height: 45px;
-    background-color: black;/*background para o nome e o preço*/
+    background-color:black; /*background para o nome e o preço*/
 }
 
 .container{
@@ -46,16 +45,11 @@ body{
 .content{
     background-color: rgb(30,30,30);
     padding: 10px;
-    /* border: solid 3px yellow; */
 }
 
-.card-header{
+.card-car .card-header{
     text-align: right;
     background-color: black;
-}
-
-.card.bg-dark.rounded-0 .card-header{
-    background-color: black; /*Background preto aonde vai a logomarca*/
 }
 
 .card-img{
@@ -76,5 +70,5 @@ body{
 }
 
 li{
-    list-style: none;   /*tirar o ponto do nome do carro e do valor*/
+    list-style: none;
 }
