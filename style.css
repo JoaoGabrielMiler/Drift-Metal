@@ -7,7 +7,7 @@ body{
     background-image: url(./images/jdm-cars.jpg);
     background-size: cover;
     background-position: center;
-    padding-left: 300px;
+    /* padding-left: 300px; apagar na hora de finalizar*/
 }
 
 .logo-dk{
@@ -33,42 +33,44 @@ body{
 }
 
 .container{
-    /* background-color: black; */
+    background-color: black; /*Opção1*/
+    /* background-color: rgb(20,20,20); Opção2*/
     /* border: solid 3px blue; teste */
-    /* background-image: radial-gradient(rgb(83, 79, 79),black,black); */
+    /* background-image: linear-gradient(rgb(83, 79, 79),black,black); */
+}
+
+.contbg{
+    background: none;
 }
 
 .content{
-    background-color: rgb(8,8,8);
-    padding: 30px;
+    background-color: rgb(15,15,15);
+    padding: 10px;
     /* border: solid 3px yellow; */
 }
 
 .card-header{
     text-align: right;
-    margin: 0px;
-    padding: 0px;
     background-color: black;
 }
 
 .card.bg-dark.rounded-0 .card-header{
-    background-color: black;
+    background-color: black; /*Background preto aonde vai a logomarca*/
 }
 
 .card-img{
     width: 250px;
     height: 200px;
     object-fit: cover;
-    /* background-image: center; */
 }
 
 .icone{
-    height: 70px;
+    height: 40px;
 }
 
 .row{
     margin: 50px;
-    justify-content: space-between;  /*espaçamento entre os cards*/
+    /* justify-content: space-between;  espaçamento entre os cards (retirar na hora de revisar o código final */
 }
 
 li{
