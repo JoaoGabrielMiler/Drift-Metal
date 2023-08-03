@@ -27,16 +27,16 @@ body{
 }
 
 .d-flex {
+    padding-top: 10px;
     justify-content: space-between;
     color: white;
-    background-color: black;/*background para o nome e o preço*/
     height: 45px;
+    background-color: black;/*background para o nome e o preço*/
 }
 
 .container{
     background-color: black;/*opção1*/
     /* background-color: rgb(15,15,15); Opção2 */
-    /* border: solid 3px blue; teste */
 }
 
 .contbg{
@@ -73,7 +73,6 @@ body{
     padding-right: 15px;
     padding-bottom: 30px;
     margin: 50px;
-    /* justify-content: space-between;  espaçamento entre os cards (retirar na hora de revisar o código final */
 }
 
 li{
