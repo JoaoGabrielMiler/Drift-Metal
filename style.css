@@ -68,6 +68,8 @@ body{
 }
 
 .row{
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 30px;
     margin: 50px;
     /* justify-content: space-between;  espaçamento entre os cards (retirar na hora de revisar o código final */
