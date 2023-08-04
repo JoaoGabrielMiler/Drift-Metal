@@ -49,7 +49,8 @@ body{
 
 .card-car{
     border: none;
-    color: #fff;;
+    color: #fff;
+    padding: 15px;
 }
 
 .card-car .card-img{
@@ -74,12 +75,14 @@ body{
     height: 40px;
 }
 
-li{
+/* span{
     list-style: none;
-}
+} */
 
 .row{
     padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
