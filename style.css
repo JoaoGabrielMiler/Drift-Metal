@@ -2,6 +2,7 @@ body{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
+/* css do topbar */
 .top-bar{
     height: 400px;
     background-image: url(./images/jdm-cars.jpg);
@@ -20,10 +21,81 @@ body{
     padding-top: 250px;
 }
 
+/* css do nav */
 .navbar{
     background-image: linear-gradient(rgb(83, 79,79),black);
     color: gainsboro;
 }
+
+/* css do conteúdo da página */
+.container{
+    background-color: black;
+}
+
+.contbg{
+    background: none;
+}
+
+.content{
+    background-color: rgb(30,30,30);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.card-header{
+    background-color: black;
+    text-align: right;
+}
+
+.card-car{
+    border: none;
+    color: #fff;;
+}
+
+.card-car .card-img{
+    max-width: auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-car .card-header
+.card-car .card-footer{
+    border-radius: 0;
+    background-color: black;
+}
+
+.card-car .card-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.icone{
+    height: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+.row{
+    padding-bottom: 30px;
+}
+
+
+/*  comentário apenas de referencia, apagar depois
+
+
+text-align: right; 
+
+.card-img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
 
 .footer{
     justify-content:space-between;
@@ -33,42 +105,5 @@ body{
     background-color:black; 
 }
 
-.container{
-    background-color: black;/*opção1*/
-    /* background-color: rgb(15,15,15); Opção2 */
-}
 
-.contbg{
-    background: none;
-}
-
-.content{
-    background-color: rgb(30,30,30);
-    padding: 10px;
-}
-
-.card-car .card-header{
-    text-align: right;
-    background-color: black;
-}
-
-.card-img{
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.icone{
-    height: 40px;
-}
-
-.row{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 30px;
-    margin: 50px;
-}
-
-li{
-    list-style: none;
-}
+/* background-color: rgb(15,15,15); Opção2 */
