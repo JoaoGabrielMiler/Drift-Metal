@@ -2,6 +2,7 @@ body{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
+/* css do topbar */
 .top-bar{
     height: 400px;
     background-image: url(./images/jdm-cars.jpg);
@@ -20,22 +21,15 @@ body{
     padding-top: 250px;
 }
 
+/* css do nav */
 .navbar{
     background-image: linear-gradient(rgb(83, 79,79),black);
     color: gainsboro;
 }
 
-.footer{
-    justify-content:space-between;
-    padding-top: 10px;
-    color: white;
-    height: 45px;
-    background-color:black; /*background para o nome e o preço*/
-}
-
+/* css do conteúdo da página */
 .container{
-    background-color: black;/*opção1*/
-    /* background-color: rgb(15,15,15); Opção2 */
+    background-color: black;
 }
 
 .contbg{
@@ -44,13 +38,58 @@ body{
 
 .content{
     background-color: rgb(30,30,30);
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 
-.card-car .card-header{
+.card-header{
+    background-color: black;
     text-align: right;
+}
+
+.card-car{
+    border: none;
+    color: #fff;
+    padding: 15px;
+}
+
+.card-car .card-img{
+    max-width: auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-car .card-header
+.card-car .card-footer{
+    border-radius: 0;
     background-color: black;
 }
+
+.card-car .card-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.icone{
+    height: 40px;
+}
+
+/* span{
+    list-style: none;
+} */
+
+.row{
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*  comentário apenas de referencia, apagar depois
+
+
+text-align: right; 
 
 .card-img{
     width: 250px;
@@ -58,17 +97,16 @@ body{
     object-fit: cover;
 }
 
-.icone{
-    height: 40px;
+
+
+
+.footer{
+    justify-content:space-between;
+    padding-top: 10px;
+    color: white;
+    height: 45px;
+    background-color:black; 
 }
 
-.row{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 30px;
-    margin: 50px;
-}
 
-li{
-    list-style: none;
-}
+/* background-color: rgb(15,15,15); Opção2 */
