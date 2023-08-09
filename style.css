@@ -84,29 +84,3 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-
-
-/*  comentário apenas de referencia, apagar depois
-
-
-text-align: right; 
-
-.card-img{
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
-}
-
-
-
-
-.footer{
-    justify-content:space-between;
-    padding-top: 10px;
-    color: white;
-    height: 45px;
-    background-color:black; 
-}
-
-
-/* background-color: rgb(15,15,15); Opção2 */
